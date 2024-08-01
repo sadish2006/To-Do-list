@@ -1,0 +1,74 @@
+.container{
+    
+    border-width: inherit;
+    border-style: groove;
+    height: auto;
+    width: 500px;
+    border-radius: 10px;
+    background-color: white;
+    margin-left: 500px;
+    margin-top: 200px;
+   
+}
+body{
+    background-color: rgba(86, 86, 247, 0.247);
+
+}
+h1{
+padding-top: 30px;
+padding-left: 30px;
+font-family:'Courier New', Courier, monospace;
+
+}
+#taskInput{
+    height: 40px;
+    width: 300px;
+    border-radius: 20px;
+    border-width: inherit;
+    background-color: rgba(213, 209, 209, 0.202);
+    color: black;
+    padding-left: 30px;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    
+}
+
+#addTaskBtn{
+    height:40px ;
+    width:90px ;
+    border-radius: 20px;
+    background-color: rgba(253, 82, 29, 0.938);
+    color: white;
+    border-width: inherit;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+    font-size: 25px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .delete-btn {
+    background-color: red;
+    height: 30px;
+    width:60px ;
+    border-radius: 20px;
+    border-width: inherit;
+    color: white;
+ margin-left: 390px;
+ margin-bottom: 30px;
+ cursor: pointer;
+  }
+  li,.delete-btn{
+    vertical-align: text-top;
+  }
